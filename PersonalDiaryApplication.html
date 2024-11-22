@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Diary Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            color: #0044cc;
+        }
+        h2 {
+            color: #370b71;
+        }
+        p, li {
+            color: #444;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        code {
+            background-color: #eef;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #003366;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python project: Personal Diary Application</h1>
+    <p>This Python application allows users to write and save diary entries using a GUI built with Tkinter.</p>
+
+    <h2>Key Features:</h2>
+    <ul>
+        <li><strong>Create Directory:</strong> Automatically creates a directory named with the current date.</li>
+        <li><strong>Save Entry:</strong> Saves user input as a timestamped text file in the date-specific directory.</li>
+        <li><strong>GUI Elements:</strong>
+            <ul>
+                <li>A <code>Text</code> box for writing entries.</li>
+                <li>Buttons to <strong>Save</strong> the entry or <strong>Quit</strong> the application.</li>
+            </ul>
+        </li>
+        <li><strong>Error Handling:</strong> Displays warnings or error messages using Tkinter's <code>messagebox</code>.</li>
+    </ul>
+
+    <h2>How It Works:</h2>
+    <ol>
+        <li>Creates a directory named with the current date when the application starts.</li>
+        <li>User writes an entry in the provided text box.</li>
+        <li>Clicking <strong>Save</strong> creates a timestamped file in the directory and writes the entry to it.</li>
+        <li>Handles empty entries or file system errors with user-friendly messages.</li>
+    </ol>
+
+    <h2>Usage:</h2>
+    <p>Run the script in Python to open the GUI. Write your diary entry and click <strong>Save</strong> to store it.</p>
+</body>
+</html>
